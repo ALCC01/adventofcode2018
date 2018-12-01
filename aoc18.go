@@ -1,11 +1,15 @@
 package main
 
 import (
+	"aoc18/challenges"
 	"os"
 	"strings"
 )
 
-var mapping = map[string]func(){}
+var mapping = map[string]func(){
+	"d1c1": challenges.D1C1,
+	"d1c2": challenges.D1C2,
+}
 
 const helpMessage = `Advent of Code 2018
 

@@ -9,6 +9,8 @@ import (
 var mapping = map[string]func(){
 	"d1c1": challenges.D1C1,
 	"d1c2": challenges.D1C2,
+	"d2c1": challenges.D2C1,
+	"d2c2": challenges.D2C2,
 }
 
 const helpMessage = `Advent of Code 2018

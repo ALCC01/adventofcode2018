@@ -13,6 +13,8 @@ var mapping = map[string]func(){
 	"d2c2": challenges.D2C2,
 	"d3c1": challenges.D3C1,
 	"d3c2": challenges.D3C2,
+	"d5c1": challenges.D5C1,
+	"d5c2": challenges.D5C2,
 }
 
 const helpMessage = `Advent of Code 2018
